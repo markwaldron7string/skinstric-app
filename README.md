@@ -40,8 +40,8 @@ Skinstric App guides users through a stylized analysis journey:
 
 ## CI/CD
 
-* **CI** — GitHub Actions runs the Jest suite on every push and pull request (see the badge above).
-* **CD** — Deployment is handled automatically by Vercel, which builds and ships every push to main.
+- **CI** — GitHub Actions runs the Jest suite on every push and pull request (see the badge above).
+- **CD** — Deployment is handled automatically by Vercel, which builds and ships every push to `main`. API configuration is stored as Vercel environment variables rather than committed to the repo.
 
 ---
 
