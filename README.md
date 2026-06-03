@@ -8,6 +8,8 @@ An interactive AI skincare analysis experience built as a multi-step product flo
 
 ![Skinstric App screenshot](docs/screenshot.png)
 
+---
+
 ## What It Does
 
 Skinstric App guides users through a stylized analysis journey:
@@ -19,6 +21,8 @@ Skinstric App guides users through a stylized analysis journey:
 - Demographics selection screen for race, age, and gender estimates.
 - Summary page with animated percentage visualization and editable category selections.
 - Local storage handoff between steps for a smooth client-side experience.
+
+---
 
 ## Tech Stack
 
@@ -32,6 +36,15 @@ Skinstric App guides users through a stylized analysis journey:
 - Fetch API
 - Vercel for deployment
 
+---
+
+## CI/CD
+
+* **CI** — GitHub Actions runs the Jest suite on every push and pull request (see the badge above).
+* **CD** — Deployment is handled automatically by Vercel, which builds and ships every push to main.
+
+---
+
 ## Run Locally
 
 ```bash
@@ -40,6 +53,8 @@ npm run dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000).
+
+---
 
 ## Project Status
 
