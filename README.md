@@ -1,3 +1,5 @@
+![CI](https://github.com/markwaldron7string/skinstric-app/actions/workflows/ci.yml/badge.svg)
+
 # Skinstric App
 
 An interactive AI skincare analysis experience built as a multi-step product flow with image capture, upload, and demographic result views.
