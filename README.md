@@ -1,3 +1,5 @@
+![CI](https://github.com/markwaldron7string/skinstric-app/actions/workflows/ci.yml/badge.svg)
+
 # Skinstric App
 
 An interactive AI skincare analysis experience built as a multi-step product flow with image capture, upload, and demographic result views.
@@ -5,6 +7,8 @@ An interactive AI skincare analysis experience built as a multi-step product flo
 **Live demo:** [skinstric-app-tau.vercel.app](https://skinstric-app-tau.vercel.app)
 
 ![Skinstric App screenshot](docs/screenshot.png)
+
+---
 
 ## What It Does
 
@@ -18,6 +22,8 @@ Skinstric App guides users through a stylized analysis journey:
 - Summary page with animated percentage visualization and editable category selections.
 - Local storage handoff between steps for a smooth client-side experience.
 
+---
+
 ## Tech Stack
 
 - Next.js 16 App Router
@@ -30,6 +36,15 @@ Skinstric App guides users through a stylized analysis journey:
 - Fetch API
 - Vercel for deployment
 
+---
+
+## CI/CD
+
+- **CI** — GitHub Actions runs the Jest suite on every push and pull request (see the badge above).
+- **CD** — Deployment is handled automatically by Vercel, which builds and ships every push to `main`. API configuration is stored as Vercel environment variables rather than committed to the repo.
+
+---
+
 ## Run Locally
 
 ```bash
@@ -38,6 +53,8 @@ npm run dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000).
+
+---
 
 ## Project Status
 
