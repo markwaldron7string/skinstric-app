@@ -1,4 +1,5 @@
 ![CI](https://github.com/markwaldron7string/skinstric-app/actions/workflows/ci.yml/badge.svg)
+![E2E](https://github.com/markwaldron7string/Skinstric-App/actions/workflows/cypress.yml/badge.svg)
 
 # Skinstric App
 
